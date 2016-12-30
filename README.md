@@ -1,2 +1,2 @@
-```npm install```
+```npm install```  
 ```npm start <year> <outputFilename>```
