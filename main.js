@@ -47,7 +47,7 @@ async function main(year, outputFilename) {
 
   while (morePages) {
     const pageJSON = await getPage(year, currentPage);
-    if(pageJSON.length === 0 || currentPage === 5) {
+    if(pageJSON.length === 0) {
        morePages = false;
     } else {
       const articles = processPage(pageJSON);
